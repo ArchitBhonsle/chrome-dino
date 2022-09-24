@@ -4497,3 +4497,8 @@ Horizon.prototype = {
     }
   },
 };
+
+document.addEventListener("DOMContentLoaded", () => {
+  document.documentElement.classList.add("offline");
+  new Runner(".interstitial-wrapper");
+});
